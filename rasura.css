@@ -1,0 +1,22 @@
+#btnsobremim {
+    width: 30%;
+    height: 15vh;
+    background-color: #333;
+    border-radius: 15px;
+    margin-top: 5vh;
+    border: solid;
+    font-size: 3vh;
+    color: #c4dad2;
+    background-image: url(green-floating-leaves-flying-leaves-green-leaf-dancing-png.webp);
+    background-size: 50%;
+    transition: 1s;
+}
+#btnsobremim:hover{animation: folhas 2s ; opacity: 0.8;}
+
+@keyframes folhas {
+    from{background-position: 0% 0%;}
+    to{background-position: 100% 0%;}
+  
+   
+    
+}
